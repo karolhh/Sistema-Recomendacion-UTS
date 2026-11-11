@@ -1,0 +1,48 @@
+{
+  "niveles": [
+    { "nombre": "Tecnología", "descripcion": "Formación tecnológica" },
+    { "nombre": "Ingeniería", "descripcion": "Formación profesional" }
+  ],
+  "modalidades": [
+    { "nombre": "Proyecto de Investigación", "descripcion": "Investigación aplicada" },
+    { "nombre": "Desarrollo Tecnológico", "descripcion": "Desarrollo de software" }
+  ],
+  "lineas": [
+    { "nombre": "Desarrollo de Software", "descripcion": "Ingeniería de software" },
+    { "nombre": "Bases de Datos", "descripcion": "Gestión de datos" }
+  ],
+  "users": [
+    { "name": "Juan Pérez", "email": "juan.perez@uts.edu.co", "nroDocumento": "12345678" },
+    { "name": "María Gómez", "email": "maria.gomez@uts.edu.co", "nroDocumento": "87654321" }
+  ],
+  "trabajos": [
+    {
+      "codigoTg": "TG-001",
+      "nivel": "Tecnología",
+      "estudiante": "Juan Pérez",
+      "titulo": "Sistema de Gestión de Inventarios",
+      "modalidad": "Proyecto de Investigación",
+      "director": "Yezid Yair Garcia Zambrano",
+      "evaluador": "Javier Mauricio Mendoza Paredes",
+      "periodoAcademico": "2025-1",
+      "palabrasClave": "Desarrollo Web, Spring Boot",
+      "lineaInvestigacion": "Desarrollo de Software"
+    },
+    {
+      "codigoTg": "TG-002",
+      "nivel": "Tecnología",
+      "estudiante": "María Gómez",
+      "titulo": "Optimización de Consultas SQL",
+      "modalidad": "Desarrollo Tecnológico",
+      "director": "Javier Mauricio Mendoza Paredes",
+      "evaluador": "Yezid Yair Garcia Zambrano",
+      "periodoAcademico": "2025-1",
+      "palabrasClave": "Bases de Datos, SQL",
+      "lineaInvestigacion": "Bases de Datos"
+    }
+  ],
+  "actas": [
+    { "numero": 24, "fecha": "2025-08-19", "descripcion": "Aprobación del pago de la modalidad", "proyectoId": 109 },
+    { "numero": 25, "fecha": "2025-08-21", "descripcion": "Rechazo del pago de la modalidad", "proyectoId": 111 }
+  ]
+}

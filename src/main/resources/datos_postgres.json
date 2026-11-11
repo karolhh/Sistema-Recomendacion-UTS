@@ -1,0 +1,29 @@
+{
+  "campus": [
+    { "id": 1, "name": "Bucaramanga", "email": "bucaramanga@uts.edu.co", "password": "123", "role": "campus" }
+  ],
+  "configurations": [
+    { "id": 1, "semester": "2025-1", "startDate": "2025-01-20", "endDate": "2025-05-30", "information": "Configuración semestre", "campusId": 1, "investigacion": "Investigación", "extension": "Extensión", "oaca": "OACA", "oda": "ODA", "title": "Periodo 2025-1", "tcHours": 53.33, "mtHours": 26.66 }
+  ],
+  "coordinators": [
+    { "id": 1, "document": "11111111", "firstName": "Cielo", "lastName": "Gomez", "email": "cielo.gomez@uts.edu.co", "password": "123", "role": "coordinator", "programId": 1 }
+  ],
+  "deans": [
+    { "id": 1, "document": "22222222", "firstName": "Dean", "lastName": "Prueba", "email": "dean@uts.edu.co", "password": "123", "faculty": "FCNI", "campusId": 1, "role": "dean" }
+  ],
+  "formats": [
+    { "id": 1, "semester": "2025-1", "isFinish": true, "teacherId": 1, "observation": "Todo ok", "isDeanSigned": true, "isCoordSigned": true }
+  ],
+  "teachers": [
+    { "id": 1, "document": "12345678", "firstName": "Yezid Yair", "lastName": "Garcia Zambrano", "email": "yezid.garcia@uts.edu.co", "password": "123", "phone": "3001234567", "address": "Calle 1", "card": "123", "faculty": "FCNI", "campus": "Bucaramanga", "employmentType": "Tiempo Completo", "rank": "Asociado", "undergraduate": "Ingeniero de Sistemas", "specialization": "Especialista en Software", "master": "Magíster en Ingeniería de Software", "doctorate": null, "programId": 1, "isActive": true, "programName": "Tecnología en Desarrollo de Sistemas Informáticos", "role": "teacher" }
+  ],
+  "activities": [
+    { "id": 1, "semester": "2025-1", "name": "Docencia Directa", "mission": "Docencia", "convention": "Docencia directa", "description": "Curso", "groupName": "Grupo A", "hours": 4.00, "responsible": "Yezid Yair Garcia Zambrano", "teacherId": 1, "consolidated": "Docencia" }
+  ],
+  "programs": [
+    { "id": 1, "name": "Tecnología en Desarrollo de Sistemas Informáticos", "campusId": 1, "faculty": "FCNI" }
+  ],
+  "schedules": [
+    { "id": 1, "semester": "2025-1", "name": "Planeación", "classification": "Docencia", "day": "Lunes", "teacherId": 1, "moment": 1, "activityId": 1 }
+  ]
+}
